@@ -1,0 +1,22 @@
+.hero {
+  background-color: #06163e;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-family: inter;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.hero-description {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: inter;
+  opacity: 0.9;
+}

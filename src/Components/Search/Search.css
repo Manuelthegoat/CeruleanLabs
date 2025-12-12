@@ -1,0 +1,89 @@
+.search-section {
+  background-color: #06163e;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Search bar */
+.search-input-container {
+  width: 70%;
+  max-width: 650px;
+  margin: 0 auto 40px auto;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 20px 15px 50px;
+  border-radius: 40px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 18px;
+}
+
+/* Texts */
+.search-subtitle {
+  font-size: 15px;
+  margin-bottom: 18px;
+  opacity: 0.85;
+}
+
+.search-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.search-tag {
+  font-size: 18px;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+/* Card styles */
+.search-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.search-card {
+  background: white;
+  border: 8px solid #15B0F7;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  color: black;
+}
+
+.card-icon {
+  font-size: 40px;
+  color: #15B0F7;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #0E0424;
+}
+
+.card-text {
+  font-size: 15px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
